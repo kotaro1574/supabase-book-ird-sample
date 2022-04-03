@@ -5,7 +5,7 @@ import logo from 'public/logo.png'
 export const Header = () => {
   return (
     <header
-      className={'flex justify-center pag-4 py-6 text-gray-600 bg-gray-200'}
+      className={'flex justify-center gap-4 py-6 text-gray-600 bg-gray-200'}
     >
       <Link href={'/'}>
         <a className={'flex justify-items-center'}>
